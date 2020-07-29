@@ -1,0 +1,2 @@
+# Funda Internet Check
+> ⚠️ Please note that this project is very badly written, and is just a result of a small bet at the office. Although it does work, it is not made to do any exception handling etc. ⚠️
