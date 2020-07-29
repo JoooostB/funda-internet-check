@@ -1,0 +1,17 @@
+{
+    "name": "Funda Internet Checker",
+    "version": "0.1",
+    "description": "Displays the maximum available internet speed for a property on Funda",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.funda.nl/*"
+            ],
+            "js": ["jquery-3.5.1.min.js", "product.js", "content.js"]
+        }
+    ],
+    "manifest_version": 2
+}
